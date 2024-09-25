@@ -1,6 +1,7 @@
 import React from 'react'
-import "./navbar.css;"
+import "./navbar.css"
 import { Gi3dGlasses } from "react-icons/gi";
+import { MdArrowDropDown } from "react-icons/md";
 
 const navbar = () => {
   return (
@@ -20,6 +21,16 @@ const navbar = () => {
             <li>TAILERS</li>
             <li>CONTACTS</li>
             </ul>
+        </div>
+        <div className="navbar__search ">
+          <div className="navbar__input">
+            <input type="text" placeholder='ALL CATEGORY' />
+            <MdArrowDropDown />
+          </div>
+          <div className="navbar__location">
+            <input type="text" placeholder='LOCATION' />
+          </div>
+            
         </div>
       </nav>
     </div>
