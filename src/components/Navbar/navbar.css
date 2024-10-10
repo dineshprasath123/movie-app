@@ -1,0 +1,30 @@
+.navbar{
+    background-color: aqua;
+}
+.navbar nav{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10plx 20plx;
+}
+.navbar__brand{
+    display:flex;
+    align-items: center;
+}
+.navbar__menu ul{
+    display:flex;
+    list-style: none;
+    align-items: center;
+}
+.navbar__menu ul li{
+   margin-left: 20px;
+   font-weight:bold ;
+   cursor: pointer;
+}
+.navbar__search{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 10px;
+}
+.navbar__

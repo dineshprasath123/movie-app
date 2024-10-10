@@ -2,6 +2,8 @@ import React from 'react'
 import "./navbar.css"
 import { Gi3dGlasses } from "react-icons/gi";
 import { MdArrowDropDown } from "react-icons/md";
+import { FaSearchLocation } from "react-icons/fa";
+import { ImMenu3 } from "react-icons/im";
 
 const navbar = () => {
   return (
@@ -29,8 +31,11 @@ const navbar = () => {
           </div>
           <div className="navbar__location">
             <input type="text" placeholder='LOCATION' />
+            <FaSearchLocation />
           </div>
-            
+          <div className="navbar__menubar">
+          <ImMenu3 />
+          </div>
         </div>
       </nav>
     </div>
